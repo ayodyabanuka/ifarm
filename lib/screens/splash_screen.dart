@@ -26,10 +26,8 @@ class _splashScreenState extends State<splashScreen>
     });
     //set time to load the new page
     Future.delayed(Duration(seconds: 4), () {
-      Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context) => login()),
-      );
+      Navigator.pushAndRemoveUntil(context,
+          MaterialPageRoute(builder: (context) => login()), (route) => false);
     });
     super.initState();
   }
@@ -47,13 +45,16 @@ class _splashScreenState extends State<splashScreen>
         child: Column(
           children: [
             const SizedBox(
-              height: 40,
+              height: 120,
             ),
-            Image.asset("assets/images/splash.gif"),
+            Image.asset(
+              "assets/images/splash.gif",
+              scale: 3,
+            ),
             const Text(
               'I Farm',
               style: TextStyle(
-                fontSize: 65,
+                fontSize: 40,
                 fontWeight: FontWeight.bold,
                 color: Color.fromARGB(255, 37, 36, 36),
                 fontFamily: 'DM Serif Text',
