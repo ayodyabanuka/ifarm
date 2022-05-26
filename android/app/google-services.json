@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "888549905235",
+    "firebase_url": "https://ifarm-db669-default-rtdb.firebaseio.com",
+    "project_id": "ifarm-db669",
+    "storage_bucket": "ifarm-db669.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888549905235:android:074251e115f2f1b10307a6",
+        "android_client_info": {
+          "package_name": "com.example.ifarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888549905235-mtvskd51c7mr1euamkrt4592nl2s9gvn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG5O8T_x8BwuA85c86kyn_gOP-4Rbj4Ts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888549905235-mtvskd51c7mr1euamkrt4592nl2s9gvn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
